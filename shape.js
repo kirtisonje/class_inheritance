@@ -15,5 +15,5 @@ class Shape {
         console.log(`${this.color}  area is to be calculated`)
     }
   
-  }
-  module.exports = Shape
+}
+export default Shape
