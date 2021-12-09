@@ -6,7 +6,7 @@
 
 // export class using module.exports
 
-let Shape = require('./shape').default
+let Shape = require('./shape')
 
 
 export class Circle extends Shape {
@@ -19,4 +19,4 @@ export class Circle extends Shape {
     }
 }
 
-export default Circle
+module.exports = Circle
